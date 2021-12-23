@@ -9,7 +9,7 @@ import magic
 import subprocess
 from pathlib import Path
 
-classDumpExec = './class-dump-with-swift-support'
+classDumpExec = './class-dump-swift'
 FNULL = open(os.devnull, 'w')
 
 def traverseDir(rootDir='.'):
